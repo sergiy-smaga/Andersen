@@ -6,7 +6,7 @@ function numbers() {
   }
   return console.log(a.toString(b));
 }
-// numbers();
+numbers();
 
 function numbers2() {
   let a = +prompt("put in some number", "");
@@ -21,4 +21,4 @@ function numbers2() {
   }
   return console.log(`Ответ: ${a + b}, ${a / b}`);
 }
-// numbers2();
+numbers2();
